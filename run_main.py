@@ -86,6 +86,7 @@ class main_window_ui(QMainWindow, main_window.Ui_MainWindow):
                 self.textBrowser_2.append(str(rule))
             # 推理结果
             self.textBrowser_3.append(results[-1])
+        self.textBrowser_3.append("已经添加到未知病症数据库，等待更新中！")
 
     def showRules(self):
         self.showRules_window.show()
